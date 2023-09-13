@@ -1,0 +1,58 @@
+tr {
+  font-size: 12px;
+}
+
+td {
+  background: #b8ffd1;
+  color: #464646;
+  padding: 5px 10px;
+}
+
+th {
+  background: #133f10;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+h1 {
+  color: #00730a;
+}
+
+#userinfoHeading{
+  color: #094eb6
+}
+
+.table-wrap {
+  overflow-x: scroll;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.table th,
+.table td {
+  border: 2px solid #eee;
+  padding: 4px 8px;
+}
+.userinfoTable {
+  margin-bottom: 20px;
+}
+
+.userinfoTable th {
+  width: 100px;
+  background: #001f85
+}
+.userinfoTable td {
+  width: 1200px;
+  background: #c6e4f6
+}
+#user a{
+  color: #fff;
+}
+.userName{
+  font-size: 20px;
+  color: #001f85;
+}
