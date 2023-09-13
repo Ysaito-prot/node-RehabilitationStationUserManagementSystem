@@ -9,7 +9,7 @@
         <div class="table-wrap">
             <table class="table">
                 <tr>
-                    <th id="user"><a href="/userinfo">利用者名</a></th>
+                    <th>利用者名</th>
                     <th>生年月日</th>
                     <th>リハビリの開始日</th>
                     <th>介護保険の期限</th>
@@ -26,7 +26,7 @@
                     <% users.forEach(function (value) { %>
                         <tr>
                             <td>
-                                <%= value.name %>
+                                <a href="/userinfo/<%= value.id %>"><%= value.name %></a>
                             </td>
                             <td>
                                 <%= value.birthdate %>
