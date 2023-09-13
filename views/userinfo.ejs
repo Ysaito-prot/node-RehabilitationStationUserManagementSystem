@@ -9,46 +9,42 @@
         <!--formの％は全て消した状態で行うか？-->
         <h1 id="userinfoHeading">利用者情報</h1>
         <table class="userinfoTable">
-            <% for (let i = 0; i < info.length; i++) { %>
-                <% if(user[0].id === info[i].id){ %>
             <tr>
                 <th>名前</th>
                 <td>
-                    <%= info[i].name %>
+                    <%= user[0].name %>
                 </td>
             </tr>
             <tr>
                 <th>疾患名</th>
                 <td>
-                    <%= info[i].diseaseName %>
+                    <%= user[0].diseaseName %>
                 </td>
             </tr>
             <tr>
                 <th>現病名</th>
                 <td>
-                    <%= info[i].illnessHistory %>
+                    <%= user[0].illnessHistory %>
                 </td>
             </tr>
             <tr>
                 <th>目標設定</th>
                 <td>
-                    <%= info[i].goal %>
+                    <%= user[0].goal %>
                 </td>
             </tr>
             <tr>
                 <th>家族構成</th>
                 <td>
-                    <%= info[i].family %>
+                    <%= user[0].family %>
                 </td>
             </tr>
             <tr>
                 <th>既往歴</th>
                 <td>
-                    <%= info[i].medicalHistory %>
+                    <%= user[0].medicalHistory %>
                 </td>
             </tr>
-            <% } %>
-            <% }; %>
         </table>
     </body>
 </html>
